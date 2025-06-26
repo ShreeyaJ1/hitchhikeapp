@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "628436003068",
+    "project_id": "hitchhike-c68bf",
+    "storage_bucket": "hitchhike-c68bf.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:628436003068:android:20a548f8d1870d4d36cf79",
+        "android_client_info": {
+          "package_name": "com.anonymous.hitchhikeapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgD38_MBy04A8FaRE2QFZ2dpwCIHx2bAo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

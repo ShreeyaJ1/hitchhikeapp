@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "Hitchhike",
+    "slug": "hitchhike-app",
+    "version": "1.0.0",
+    "jsEngine": "hermes",
+    "orientation": "portrait",
+    "icon": "C:/Users/HP/Desktop/hitchhikeapp/src/assets/icon.png",
+    "splash": {
+      "image": "C:/Users/HP/Desktop/hitchhikeapp/src/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff",
+      "extra": {
+        "API_URL": "http://172.20.10.6:5000/api"
+
+      }
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "config": {
+        "googleMapsApiKey": "AIzaSyDnpQR9uEAVFmVbDAdtrssvG49-BV9qtvc"
+      },
+      "supportsTablet": false
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDnpQR9uEAVFmVbDAdtrssvG49-BV9qtvc"
+        }
+      },
+      "adaptiveIcon": {
+        "foregroundImage": "C:/Users/HP/Desktop/hitchhikeapp/src/assets/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.anonymous.hitchhikeapp"
+    },
+    "web": {
+      "favicon": "C:/Users/HP/Desktop/hitchhikeapp/src/assets/icon.png"
+    },
+    "sdkVersion": "53.0.0",
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "C:/Users/HP/Desktop/hitchhikeapp/src/assets/icon.png",
+          "color": "#3b82f6"
+        }
+      ]
+    ]
+  }
+}
