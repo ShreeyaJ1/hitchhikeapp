@@ -5,15 +5,13 @@
     "version": "1.0.0",
     "jsEngine": "hermes",
     "orientation": "portrait",
-    "icon": "./src/assets/icon.png",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
     "splash": {
-      "image": "./src/assets/splash.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff",
-      "extra": {
-        "API_URL": "http://172.20.10.6:5000/api"
-
-      }
+      "backgroundColor": "#3B82F6"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -22,7 +20,8 @@
       "config": {
         "googleMapsApiKey": "AIzaSyDnpQR9uEAVFmVbDAdtrssvG49-BV9qtvc"
       },
-      "supportsTablet": false
+      "supportsTablet": false,
+      "bundleIdentifier": "com.hitchhike.app"
     },
     "android": {
       "googleServicesFile": "./google-services.json",
@@ -32,23 +31,28 @@
         }
       },
       "adaptiveIcon": {
-        "foregroundImage": "./src/assets/icon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#3B82F6"
       },
-      "package": "com.anonymous.hitchhikeapp"
+      "package": "com.hitchhike.app"
     },
     "web": {
-      "favicon": "./src/assets/icon.png"
+      "favicon": "./assets/icon.png",
+      "bundler": "metro",
+      "output": "server"
     },
-    "sdkVersion": "53.0.0",
     "plugins": [
+      "expo-router",
       [
         "expo-notifications",
         {
-          "icon": "./src/assets/icon.png",
-          "color": "#3b82f6"
+          "icon": "./assets/icon.png",
+          "color": "#3B82F6"
         }
       ]
-    ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
   }
 }
