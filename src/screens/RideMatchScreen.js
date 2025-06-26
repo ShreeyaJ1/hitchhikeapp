@@ -2,10 +2,10 @@ import { useNavigation, useRoute } from '@react-navigation/native';
 import { useContext } from 'react';
 import { Alert, View } from 'react-native';
 import MapView, { Marker, Polyline } from 'react-native-maps';
-import CustomButton from 'C:/Users/HP/Desktop/hitchhikeapp/src/components/CustomButton';
-import RideCard from 'C:/Users/HP/Desktop/hitchhikeapp/src/components/RideCard';
-import { AuthContext } from 'C:/Users/HP/Desktop/hitchhikeapp/src/context/AuthContext';
-import * as api from 'C:/Users/HP/Desktop/hitchhikeapp/src/utils/api';
+import CustomButton from '../components/CustomButton';
+import RideCard from '../components/RideCard';
+import { AuthContext } from '../context/AuthContext';
+import * as api from '../utils/api';
 
 const RideMatchScreen = () => {
   const { user } = useContext(AuthContext);

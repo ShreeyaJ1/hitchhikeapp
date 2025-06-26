@@ -1,9 +1,9 @@
 import { useContext, useEffect, useState } from 'react';
 import { Alert, FlatList, Image, Text, View } from 'react-native';
-import CustomButton from 'C:/Users/HP/Desktop/hitchhikeapp/src/components/CustomButton';
-import RideCard from 'C:/Users/HP/Desktop/hitchhikeapp/src/components/RideCard';
-import { AuthContext } from 'C:/Users/HP/Desktop/hitchhikeapp/src/context/AuthContext';
-import * as api from 'C:/Users/HP/Desktop/hitchhikeapp/src/utils/api';
+import CustomButton from '../components/CustomButton';
+import RideCard from '../components/RideCard';
+import { AuthContext } from '../context/AuthContext';
+import * as api from '../utils/api';
 
 const ProfileScreen = () => {
   const { user, logout } = useContext(AuthContext);

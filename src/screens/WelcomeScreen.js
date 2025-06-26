@@ -41,7 +41,7 @@ const WelcomeScreen = () => {
         {pages.map((page, index) => (
           <View key={index} className="w-screen h-screen justify-center items-center p-4">
             {/* Replace with your logo */}
-            <Image source={require('C:/Users/HP/Desktop/hitchhikeapp/src/assets/logo.png')} className="w-32 h-32 mb-4" />
+            <Image source={require('../assets/logo.png')} className="w-32 h-32 mb-4" />
             <Text className="text-white text-2xl font-bold mb-2">{page.title}</Text>
             <Text className="text-white text-lg text-center">{page.description}</Text>
           </View>

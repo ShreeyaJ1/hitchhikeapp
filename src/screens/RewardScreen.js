@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Alert, FlatList, Text, View } from 'react-native';
-import RewardCard from 'C:/Users/HP/Desktop/hitchhikeapp/src/components/RewardCard';
-import * as api from 'C:/Users/HP/Desktop/hitchhikeapp/src/utils/api';
+import RewardCard from '../components/RewardCard';
+import * as api from '../utils/api';
 
 const RewardScreen = () => {
   const [progress, setProgress] = useState({ rides: 0, points: 0 });

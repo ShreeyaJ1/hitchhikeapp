@@ -1,6 +1,6 @@
 import { NativeWindStyleSheet } from 'nativewind';
-import { AuthProvider } from 'C:/Users/HP/Desktop/hitchhikeapp/src/context/AuthContext';
-import AppNavigator from 'C:/Users/HP/Desktop/hitchhikeapp/src/navigation/AppNavigator';
+import { AuthProvider } from './src/context/AuthContext';
+import AppNavigator from './src/navigation/AppNavigator';
 
 // Configure NativeWind for React Native
 NativeWindStyleSheet.setOutput({

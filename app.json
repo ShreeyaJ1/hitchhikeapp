@@ -5,9 +5,9 @@
     "version": "1.0.0",
     "jsEngine": "hermes",
     "orientation": "portrait",
-    "icon": "C:/Users/HP/Desktop/hitchhikeapp/src/assets/icon.png",
+    "icon": "./src/assets/icon.png",
     "splash": {
-      "image": "C:/Users/HP/Desktop/hitchhikeapp/src/assets/splash.png",
+      "image": "./src/assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff",
       "extra": {
@@ -32,20 +32,20 @@
         }
       },
       "adaptiveIcon": {
-        "foregroundImage": "C:/Users/HP/Desktop/hitchhikeapp/src/assets/icon.png",
+        "foregroundImage": "./src/assets/icon.png",
         "backgroundColor": "#ffffff"
       },
       "package": "com.anonymous.hitchhikeapp"
     },
     "web": {
-      "favicon": "C:/Users/HP/Desktop/hitchhikeapp/src/assets/icon.png"
+      "favicon": "./src/assets/icon.png"
     },
     "sdkVersion": "53.0.0",
     "plugins": [
       [
         "expo-notifications",
         {
-          "icon": "C:/Users/HP/Desktop/hitchhikeapp/src/assets/icon.png",
+          "icon": "./src/assets/icon.png",
           "color": "#3b82f6"
         }
       ]

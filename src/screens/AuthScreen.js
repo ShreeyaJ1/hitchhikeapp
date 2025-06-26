@@ -1,7 +1,7 @@
 import { useContext, useState } from 'react';
 import { Alert, Text, TextInput, TouchableOpacity, View } from 'react-native';
-import RoleSwitchToggle from 'C:/Users/HP/Desktop/hitchhikeapp/src/components/RoleSwitchToggle';
-import { AuthContext } from 'C:/Users/HP/Desktop/hitchhikeapp/src/context/AuthContext';
+import RoleSwitchToggle from '../components/RoleSwitchToggle';
+import { AuthContext } from '../context/AuthContext';
 
 const AuthScreen = () => {
   const { login, register } = useContext(AuthContext);

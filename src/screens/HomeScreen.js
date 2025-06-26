@@ -2,10 +2,10 @@ import * as Location from 'expo-location';
 import { useContext, useEffect, useState } from 'react';
 import { Alert, FlatList, View } from 'react-native';
 import MapView, { Marker } from 'react-native-maps';
-import CustomButton from 'C:/Users/HP/Desktop/hitchhikeapp/src/components/CustomButton';
-import NotificationBadge from 'C:/Users/HP/Desktop/hitchhikeapp/src/components/NotificationBadge';
-import { AuthContext } from 'C:/Users/HP/Desktop/hitchhikeapp/src/context/AuthContext';
-import * as api from 'C:/Users/HP/Desktop/hitchhikeapp/src/utils/api';
+import CustomButton from '../components/CustomButton';
+import NotificationBadge from '../components/NotificationBadge';
+import { AuthContext } from '../context/AuthContext';
+import * as api from '../utils/api';
 
 const HomeScreen = ({ navigation }) => {
   const { user } = useContext(AuthContext);

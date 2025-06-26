@@ -1,7 +1,7 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import * as Notifications from 'expo-notifications';
 import { createContext, useEffect, useState } from 'react';
-import * as api from 'C:/Users/HP/Desktop/hitchhikeapp/src/utils/api';
+import * as api from '../utils/api';
 // Dummy usage to prevent removal
 import { Platform } from 'react-native';
 const platform = Platform.OS; // Add this line
